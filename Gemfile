@@ -31,6 +31,12 @@ gem 'execjs', '2.0.2'
 group :development do
   gem 'sqlite3', '1.3.9'
   gem 'annotate', '2.6.2'
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'selenium-webdriver', '2.40.0'
+  gem 'capybara', '2.2.1'
 end
 
 group :production do
