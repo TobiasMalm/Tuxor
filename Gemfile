@@ -28,6 +28,10 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'execjs', '2.0.2'
 
+gem "less-rails"
+
+gem 'twitter-bootstrap-rails', '2.2.8'
+
 group :development do
   gem 'sqlite3', '1.3.9'
   gem 'annotate', '2.6.2'
